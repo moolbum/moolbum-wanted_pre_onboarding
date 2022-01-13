@@ -24,9 +24,7 @@ const Category = () => {
 
 export default Category;
 
-const CategoryContainer = styled.div`
-  width: 100%;
-`;
+const CategoryContainer = styled.div``;
 
 const CategoryWrap = styled.ul`
   display: flex;

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import MenuWrap from './MenuWrap/MenuWrap';
 import Category from './Category/Category';
+import Aside from './Aside/Aside';
 
 const Nav = () => {
   return (
@@ -9,11 +10,7 @@ const Nav = () => {
       <NavWrap>
         <MenuWrap />
         <Category />
-        <Pictogram>
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-        </Pictogram>
+        <Aside />
       </NavWrap>
     </NavContainer>
   );
@@ -27,11 +24,7 @@ const NavContainer = styled.div`
 `;
 
 const NavWrap = styled.div`
-  ${props => props.theme.flex()};
+  ${props => props.theme.flex('space-between', 'center')};
   max-width: 1060px;
   margin: ${props => props.theme.marginCenter};
-`;
-
-const Pictogram = styled.div`
-  display: flex;
 `;

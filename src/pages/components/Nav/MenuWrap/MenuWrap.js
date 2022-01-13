@@ -12,9 +12,7 @@ const MenuWrap = () => {
 
 export default MenuWrap;
 
-const LogoWrap = styled.div`
-  width: 20%;
-`;
+const LogoWrap = styled.div``;
 
 const Menu = styled.img.attrs({
   src: 'https://static.wanted.co.kr/images/icon-menu.png',
