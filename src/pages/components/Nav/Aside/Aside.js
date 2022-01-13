@@ -71,6 +71,10 @@ const NewText = styled.span`
 const NewTextProfile = styled(NewText)`
   top: -1px;
   right: -6px;
+
+  @media screen and (max-width: 1065px) {
+    display: none;
+  }
 `;
 
 const ProfileWrap = styled.div`
@@ -81,12 +85,20 @@ const ProfileWrap = styled.div`
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 1065px) {
+    display: none;
+  }
 `;
 
 const GrayLine = styled.div`
   margin: 0 1.2rem;
   padding: 0.4rem 0;
   border-left: 1px solid ${props => props.theme.gray};
+
+  @media screen and (max-width: 1065px) {
+    display: none;
+  }
 `;
 
 const Button = styled.button`
@@ -96,4 +108,8 @@ const Button = styled.button`
   color: ${props => props.theme.darkGray};
   font-size: ${props => props.theme.fontSmall};
   font-weight: ${props => props.theme.weightRegular};
+
+  @media screen and (max-width: 1065px) {
+    display: none;
+  }
 `;
