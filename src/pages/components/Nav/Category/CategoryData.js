@@ -1,23 +1,21 @@
 export const CATEGORY_LIST = [
   {
-    id: 0,
-    text: '채용',
-    link: '/',
-  },
-  {
     id: 1,
     text: '채용',
     link: '/',
+    mediaQuery: '홈',
   },
   {
     id: 2,
     text: '이벤트',
     link: '/',
+    mediaQuery: '채용',
   },
   {
     id: 3,
     text: '직분별 연봉',
     link: '/',
+    mediaQuery: '이벤트',
   },
   {
     id: 4,
